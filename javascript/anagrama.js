@@ -17,11 +17,16 @@ function Anagrama(palabraUno, palabraDos) {
   //PRIMERO ORDENAR LAS PALABRAS, PASANDO A MINUSCULAS Y QUITANDO ESPACIOS
   //COMPROBAR SI SON IGUALES AL ESTAR ORDENADAS
   //IMPRIMIR V O F
-  const ordenar = (str) => str.toLoweCase().split("").sort().join("");
+  const ordenar = (str) => str.toLowerCase().split("").sort().join("");
 
-  return ordenar(palabraUno) === ordenar(palabraDos);
+  if (ordenar(palabraUno) === ordenar(palabraDos)) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-Anagrama("hola", "aloh");
-Anagrama("casa", "saca");
-Anagrama("amor", "mora");
+console.log(Anagrama("hola", "aloh")); //true
+console.log(Anagrama("amor", "mora")); //true
+console.log(Anagrama("casa", "saca")); //true
+console.log(Anagrama("radio", "odio")); //false
