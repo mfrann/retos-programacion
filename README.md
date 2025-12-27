@@ -1,12 +1,12 @@
-# Retos de Programación - Python
+# 📚 Retos de Programación - Python
 
 Repositorio de práctica con retos de programación resueltos en Python.
 
-## Descripción
+## 🎯Descripción
 
 Colección de soluciones a diferentes retos de programación para mejorar mis habilidades de lógica y algoritmos.
 
-## Estructura
+## 🏗️Estructura
 
 ```
 retos-programacion/
@@ -16,7 +16,7 @@ retos-programacion/
 └── README.md
 ```
 
-## Uso
+## 🚀Uso
 
 ```bash
 # Clonar repositorio
@@ -27,15 +27,20 @@ cd retos-programacion
 python basicos/nombre_del_reto.py
 ```
 
-## Niveles
+## 📊Niveles
 
 - **Básicos** - Fundamentos y sintaxis
 - **Intermedios** - Algoritmos y estructuras de datos
 - **Avanzados** - Problemas complejos y optimización
 
-## Fuentes
+## 📌Fuentes
 
 - [Roadmap Retos de Programación](https://retosdeprogramacion.com/ejercicios/)
+
+## 👤Autor
+
+**Martin Caycho**
+GitHub: [https://github.com/mfrann](https://github.com/mfrann)
 
 ---
 
