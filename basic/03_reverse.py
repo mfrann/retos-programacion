@@ -11,3 +11,5 @@ def reverse_sym(word):
     return word[::-1]
 
 print(reverse_sym('Hola Mundo'))
+
+#*COMPLETADO
